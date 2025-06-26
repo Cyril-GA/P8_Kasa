@@ -2,6 +2,7 @@
   background-color: #ff6060;
   border-radius: 10px;
   width: fit-content;
+  height: 25px;
   min-width: 115px;
   font-weight: 700;
   color: #ffffff;
@@ -9,10 +10,12 @@
   line-height: 143%;
   font-size: 14px;
   text-align: center;
+  align-content: center;
 }
 
 @media (max-width: 768px) {
   .tag {
+    height: 18px;
     font-size: 10px;
     min-width: 84px;
     border-radius: 5px;
