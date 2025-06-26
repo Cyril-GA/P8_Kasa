@@ -1,0 +1,44 @@
+.kasaHeader {
+  margin: 45px auto 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  font-size: 24px;
+  max-width: 1240px;
+  width: 100%;
+}
+
+.logoHeader img {
+  height: 68px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 57px;
+}
+
+nav ul li a.active {
+  text-decoration: underline;
+}
+
+@media (max-width: 1320px) {
+  .kasaHeader {
+    margin: 45px 40px 0;
+    width: unset;
+  }
+}
+
+@media (max-width: 768px) {
+  .kasaHeader {
+    margin: 20px 20px 0;
+    font-size: 12px;
+  }
+  .logoHeader img {
+    height: 47px;
+  }
+  nav ul {
+    gap: 26px;
+  }
+}

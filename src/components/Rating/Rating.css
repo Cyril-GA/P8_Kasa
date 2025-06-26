@@ -1,0 +1,9 @@
+.rating > .active {
+  color: #ff6060;
+}
+
+@media (max-width: 768px) {
+  .rating img {
+    height: 13px;
+  }
+}

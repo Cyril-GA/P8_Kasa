@@ -1,0 +1,26 @@
+.about .backgroundImage {
+  background-image: url("../../assets/Image-about.png");
+  border: none;
+  box-shadow: none;
+}
+.about .backgroundImage::after {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.about .backgroundImage > p {
+  display: none;
+}
+
+.collapseArea {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 38px;
+}
+
+@media (max-width: 768px) {
+  .collapseArea {
+    margin: 20px 0;
+    gap: 20px;
+  }
+}

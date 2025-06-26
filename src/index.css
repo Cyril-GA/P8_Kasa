@@ -1,0 +1,47 @@
+:root {
+  interpolate-size: allow-keywords;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  margin: 50px auto;
+  max-width: 1240px;
+  width: 100%;
+}
+
+/* Spéciale Margin inline */
+@media (max-width: 1320px) {
+  .main-content {
+    margin: 50px 40px;
+    width: unset;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .main-content {
+    margin: 27px 20px;
+  }
+}

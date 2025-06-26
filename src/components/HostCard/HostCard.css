@@ -1,0 +1,28 @@
+.hostCard {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hostName {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ff6060;
+  text-align: end;
+  line-height: 143%;
+}
+
+.hostPicture {
+  height: 64px;
+  width: auto;
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .hostName {
+    font-size: 12px;
+  }
+  .hostPicture {
+    height: 32px;
+  }
+}
